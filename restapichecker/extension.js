@@ -1,4 +1,4 @@
-const vscode = require('vscode');
+const vscode = require('vscode'); 
 
 function activate(context) {
     const disposable = vscode.commands.registerCommand('restApiTester.openPanel', () => {
